@@ -15,20 +15,20 @@ Slider Component adalah sebuah komponen React yang memungkinkan Anda untuk membu
 Anda dapat menginstal komponen ini melalui npm atau yarn:
 
 ```bash
-npm install react-slider
+npm install nama-paket
 ```
 
 atau
 
 ```bash
-yarn add react-slider
+yarn add nama-paket
 ```
 
 ## Penggunaan
 
 ```jsx
 import React from 'react';
-import SliderComponent from 'react-slider';
+import SliderComponent from 'nama-paket';
 
 const images = [
   { name: 'gambar1.jpg' },
