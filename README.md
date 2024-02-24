@@ -1,3 +1,5 @@
+Berikut adalah README yang telah diperbarui dengan nama paket yang tepat (react-slider):
+
 ---
 
 # Slider Component
@@ -15,20 +17,20 @@ Slider Component adalah sebuah komponen React yang memungkinkan Anda untuk membu
 Anda dapat menginstal komponen ini melalui npm atau yarn:
 
 ```bash
-npm install nama-paket
+npm install react-slider
 ```
 
 atau
 
 ```bash
-yarn add nama-paket
+yarn add react-slider
 ```
 
 ## Penggunaan
 
 ```jsx
 import React from 'react';
-import SliderComponent from 'nama-paket';
+import SliderComponent from 'react-slider';
 
 const images = [
   { name: 'gambar1.jpg' },
@@ -60,3 +62,5 @@ Pastikan untuk menyesuaikan properti `images` dengan daftar gambar yang ingin An
 - `nextButton`: React Element (optional) - Tombol untuk perpindahan ke gambar berikutnya.
 - `prevButtonStyle`: Object (optional) - Style tambahan untuk tombol sebelumnya.
 - `nextButtonStyle`: Object (optional) - Style tambahan untuk tombol berikutnya.
+
+---
