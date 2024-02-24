@@ -1,5 +1,3 @@
-Berikut adalah README yang telah diperbarui dengan nama paket yang tepat (react-slider):
-
 ---
 
 # Slider Component
