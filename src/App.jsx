@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import SliderComponent from './components/SliderComponent'; // Ganti 'namapaket' dengan nama paket Anda
+import SliderComponent from './components/Slider/SliderComponent'; // Ganti 'namapaket' dengan nama paket Anda
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
