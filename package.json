@@ -1,6 +1,5 @@
 {
-  "name": "react-slider",
-  "private": true,
+  "name": "react-slider-button-simple",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
