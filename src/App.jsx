@@ -23,14 +23,9 @@ function App() {
     <>
       <div className="App">
         <h1 className='font-serif text-5xl'>React-Slider</h1>
-        <p>Ini adalah contoh penggunaan SliderComponent dalam aplikasi React.</p>
-        <SliderComponent images={images} />
-
-        <h2>Penjelasan Contoh Penggunaan</h2>
-        <p>
-          SliderComponent digunakan di atas dengan menyediakan properti images yang berisi daftar gambar.
-          SliderComponent akan menampilkan gambar-gambar ini dalam bentuk slider yang dapat digulir.
-        </p>
+        <div className='flex items-center justify-center my-28'>
+          <SliderComponent images={images} />
+        </div>
       </div>
     </>
   )
