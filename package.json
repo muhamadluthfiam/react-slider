@@ -1,6 +1,6 @@
 {
-  "name": "react-slider-simple",
-  "version": "0.0.0",
+  "name": "react-slider-button",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",

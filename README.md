@@ -2,48 +2,48 @@
 
 # Slider Component
 
-Slider Component adalah sebuah komponen React yang memungkinkan Anda untuk membuat slider gambar dengan navigasi sederhana.
+Slider Component is a React component that allows you to create a simple image slider with navigation.
 
-## Fitur
+## Features
 
-- Navigasi dengan tombol sebelumnya dan berikutnya.
-- Zoom in untuk melihat gambar dengan ukuran penuh.
-- Scroll smooth untuk perpindahan gambar yang halus.
+- Navigation with previous and next buttons.
+- Zoom in to view images in full size.
+- Smooth scrolling for seamless image transitions.
 
-## Instalasi
+## Installation
 
-Anda dapat menginstal komponen ini melalui npm atau yarn:
-
-```bash
-npm install react-slider-simple
-```
-
-atau
+You can install the component via npm or yarn:
 
 ```bash
-yarn add react-slider-simple
+npm install react-slider-button
 ```
 
-## Penggunaan
+or
+
+```bash
+yarn add react-slider-button
+```
+
+## Usage
 
 ```jsx
 import React from 'react';
-import SliderComponent from 'react-slider-simple';
+import SliderComponent from 'react-slider-button';
 
 const images = [
-  { name: 'gambar1.jpg' },
-  { name: 'gambar2.jpg' },
-  // tambahkan gambar lainnya sesuai kebutuhan
+  { name: 'image1.jpg' },
+  { name: 'image2.jpg' },
+  // add more images as needed
 ];
 
 const App = () => {
   return (
     <SliderComponent
       images={images}
-      prevButton={<span>Sebelumnya</span>}
-      nextButton={<span>Berikutnya</span>}
-      prevButtonStyle={{ background: 'red' }} // style opsional untuk tombol sebelumnya
-      nextButtonStyle={{ background: 'green' }} // style opsional untuk tombol berikutnya
+      prevButton={<span>Previous</span>}
+      nextButton={<span>Next</span>}
+      prevButtonStyle={{ background: 'red' }} // optional style for previous button
+      nextButtonStyle={{ background: 'green' }} // optional style for next button
     />
   );
 };
@@ -51,14 +51,14 @@ const App = () => {
 export default App;
 ```
 
-Pastikan untuk menyesuaikan properti `images` dengan daftar gambar yang ingin Anda tampilkan di slider.
+Make sure to adjust the `images` property with the list of images you want to display in the slider.
 
 ## Props
 
-- `images`: Array of Objects (required) - Daftar gambar yang akan ditampilkan di slider.
-- `prevButton`: React Element (optional) - Tombol untuk perpindahan ke gambar sebelumnya.
-- `nextButton`: React Element (optional) - Tombol untuk perpindahan ke gambar berikutnya.
-- `prevButtonStyle`: Object (optional) - Style tambahan untuk tombol sebelumnya.
-- `nextButtonStyle`: Object (optional) - Style tambahan untuk tombol berikutnya.
+- `images`: Array of Objects (required) - List of images to be displayed in the slider.
+- `prevButton`: React Element (optional) - Button for navigating to the previous image.
+- `nextButton`: React Element (optional) - Button for navigating to the next image.
+- `prevButtonStyle`: Object (optional) - Additional styles for the previous button.
+- `nextButtonStyle`: Object (optional) - Additional styles for the next button.
 
 ---
